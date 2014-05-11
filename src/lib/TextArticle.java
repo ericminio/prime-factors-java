@@ -3,6 +3,7 @@ package lib;
 public class TextArticle implements Article {
 
     public String text;
+    private String decomposition;
 
     public String toString() {
         return "An article with text = " + text;
@@ -10,6 +11,6 @@ public class TextArticle implements Article {
 
     @Override
     public void aboutNumber(Integer number) {
-        text = "We've just discovered that " + number + " = 2 x 2 x 3 x 5 x 5!!!";
+        text = "We've just discovered that " + number + " = " + decomposition + "!!!";
     }
 }
