@@ -13,8 +13,8 @@ public class Journalist {
     }
 
     public void writeAnArticleAbout(Integer number) {
-        genius.decompositionOf(number);
         article.aboutNumber(number);
+        article.withDecomposition(genius.decompositionOf(number));
     }
 
 }
