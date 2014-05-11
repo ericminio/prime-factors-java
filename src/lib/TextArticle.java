@@ -1,5 +1,7 @@
 package lib;
 
+import java.util.List;
+
 public class TextArticle implements Article {
 
     public String text;
@@ -12,5 +14,10 @@ public class TextArticle implements Article {
     @Override
     public void aboutNumber(Integer number) {
         text = "We've just discovered that " + number + " = " + decomposition + "!!!";
+    }
+
+    @Override
+    public void withDecomposition(List<Integer> primeFactors) {
+
     }
 }
