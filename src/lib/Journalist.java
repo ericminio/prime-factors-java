@@ -11,4 +11,7 @@ public class Journalist {
     public void writeAnArticleAbout(Integer number) {
         article.aboutNumber(number);
     }
+
+    public void willAskGenius(Genius genius) {
+    }
 }
