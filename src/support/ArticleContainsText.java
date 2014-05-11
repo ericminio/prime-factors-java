@@ -15,7 +15,7 @@ public class ArticleContainsText extends TypeSafeMatcher<Article> {
 
     @Override
     public boolean matchesSafely(Article article) {
-        return false;
+        return article.text != null && article.text.indexOf(expected) != -1;
     }
 
     public void describeTo(Description description) {
