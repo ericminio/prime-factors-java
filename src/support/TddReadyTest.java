@@ -1,3 +1,5 @@
+package support;
+
 import org.junit.Test;
 
 import java.util.Observable;
