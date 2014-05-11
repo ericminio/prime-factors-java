@@ -1,6 +1,8 @@
 package lib;
 
+import java.util.List;
+
 public interface Genius {
 
-    void decompositionOf(Integer number);
+    List<Integer> decompositionOf(Integer number);
 }

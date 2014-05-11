@@ -1,11 +1,14 @@
 package katas.primefactors.lib;
 
+import lib.Genius;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mathematician {
+public class Mathematician implements Genius {
 
-    public List<Integer> decompositionOf(int number) {
+    @Override
+    public List<Integer> decompositionOf(Integer number) {
         List<Integer> factors = new ArrayList<Integer>();
         int factor = 1;
         factors.add(factor);

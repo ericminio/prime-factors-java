@@ -30,7 +30,7 @@ public class JournalistTest {
     @Test
     public void askAGeniusToDecomposeTheGivenNumber() {
         Genius einstein = mock(Genius.class);
-        claire.willAskGenius(einstein);
+        claire.genius = einstein;
         claire.writeAnArticleAbout(300);
 
         verify(einstein).decompositionOf(300);
