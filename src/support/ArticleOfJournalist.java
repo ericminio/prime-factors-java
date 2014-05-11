@@ -6,6 +6,6 @@ import lib.Journalist;
 public class ArticleOfJournalist {
 
     public static Article articleOf(Journalist journalist) {
-        return journalist.article();
+        return journalist.article;
     }
 }
