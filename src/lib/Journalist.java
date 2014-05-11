@@ -5,7 +5,7 @@ public class Journalist {
     public Article article;
 
     public Journalist() {
-        article = new Article();
+        article = new TextArticle();
     }
 
     public void writeAnArticleAbout(Integer number) {

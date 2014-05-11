@@ -1,12 +1,11 @@
 import lib.Article;
+import lib.TextArticle;
 import lib.Journalist;
 import org.junit.Test;
 
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
-import static support.ArticleContainsText.containsText;
-import static support.ArticleOfJournalist.articleOf;
 
 public class JournalistTest {
 
@@ -14,8 +13,8 @@ public class JournalistTest {
 
     @Test
     public void injectNumberInTheArticle() {
-        Article article = mock(Article.class);
         claire = new Journalist();
+        Article article = mock(Article.class);
         claire.article = article;
         claire.writeAnArticleAbout(300);
 

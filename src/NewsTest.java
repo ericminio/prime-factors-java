@@ -2,8 +2,8 @@ import lib.Journalist;
 import org.junit.Test;
 
 import static org.junit.Assert.assertThat;
-import static support.ArticleContainsText.containsText;
-import static support.ArticleOfJournalist.articleOf;
+import static support.TextArticleContains.containsText;
+import static support.TextArticleOfJournalist.articleOf;
 
 public class NewsTest {
 
