@@ -2,7 +2,7 @@ package katas.primefactors;
 
 import org.junit.Test;
 
-import static katas.primefactors.support.Fixture.primeFactorsOf;
+import static katas.primefactors.support.PrimeFactorsOfANumber.primeFactorsOf;
 import static katas.primefactors.support.ListMatcher.are;
 import static org.junit.Assert.assertThat;
 
